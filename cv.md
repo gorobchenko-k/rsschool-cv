@@ -6,7 +6,8 @@
 * __Location:__ Saint-Petersburg
 * __E-mail:__ gorobchenko.es@mail.ru
 * __Telegram:__ gorobchenko_k
-* __GitHub:__ [gorobchenko-k](https://github.com/gorobchenko-k)
+* __GitHub:__ [gorobchenko-k](https://github.com/gorobchenko-k) 
+
 **************
 #### Skills:
 * HTML
