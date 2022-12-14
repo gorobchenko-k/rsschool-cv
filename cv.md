@@ -39,8 +39,8 @@ function comp(array1, array2){
 #### Education:
 * University: Saint-Petersburg State University of Aerospace Instrumentation, Information systems and technologies/ 2018 - 2022
 * Courses:
-    - [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/responsive-web-design)/ Октябрь 2022
-    - [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/javascript-algorithms-and-data-structures)/ Ноябрь 2022
+    - [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/responsive-web-design)/ October 2022
+    - [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/javascript-algorithms-and-data-structures)/ November 2022
 
 **************
 #### Languages:
