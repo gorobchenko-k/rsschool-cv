@@ -5,6 +5,11 @@ body {
     scroll-behavior: smooth;
 }
 
+ul,
+li {
+    list-style: none;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
