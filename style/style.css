@@ -1,7 +1,8 @@
 body {
     box-sizing: content-box;
     font-family: Manrope;
-    background-color: #f3ece7;
+    background-color: rgb(243, 236, 231);
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -38,7 +39,6 @@ body {
 }
 
 /* -------------------- */
-
 .header {
     position: fixed;
     top: 0;
@@ -69,14 +69,14 @@ body {
 }
 
 .header__link {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.3s ease-in-out 0s;
 }
 
 .header__link:hover {
-    color: #ffe3cc;
+    color: rgb(255, 227, 204);
 }
 
 .header__link::before {
@@ -87,7 +87,7 @@ body {
     right: 0;
     height: 1px;
     bottom: -1px;
-    background-color: #ffe3cc;
+    background-color: rgb(255, 227, 204);
     transition: width 0.5s ease-in-out;
 }
 
@@ -98,7 +98,6 @@ body {
 
 /* -------------------------------- */
 .home {
-    /* margin-top: 70px; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -109,7 +108,6 @@ body {
     z-index: 2;
     color: rgb(29, 29, 29);
     margin: 0 30px;
-    width: 100vw;
 }
 
 .home__body>*:not(:last-child) {
@@ -122,6 +120,7 @@ body {
 
 .home__text {
     font-size: 25px;
+    line-height: 150%;
 }
 
 .home__download {
@@ -133,13 +132,13 @@ body {
     line-height: calc(28 / 14 * 100%);
     padding: 10px 36px;
     color: rgb(29, 29, 29);
-    background: #f4decc;
+    background: rgb(244, 222, 204);
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 
 .home__download:hover {
-    background: #ddcaba;
+    background: rgb(221, 202, 186);
 }
 
 .home__image {
@@ -151,12 +150,10 @@ body {
 }
 
 /* -------------------------------- */
-.about {
+.about__container {
     padding-top: 70px;
     position: relative;
 }
-
-.about__container {}
 
 .about__container::before {
     content: "";
@@ -164,11 +161,9 @@ body {
     top: -30%;
     left: 0;
     height: 150px;
-    width: 100%;
-    background: linear-gradient(transparent 20%, #f3ece7 90%, #f3ece7);
+    width: 100vw;
+    background: linear-gradient(transparent 20%, rgb(243, 236, 231) 90%, rgb(243, 236, 231));
 }
-
-.about__title {}
 
 .about__body {
     display: flex;
@@ -185,12 +180,9 @@ body {
 }
 
 /* -------------------------------- */
-
-.skills {}
-
-.skills__container {}
-
-.skills__title {}
+.skills__container {
+    padding-top: 70px;
+}
 
 .skills__list {
     padding: 0 10px;
@@ -210,17 +202,10 @@ body {
 
 .skills__icon {
     padding: 0 5px 0 0;
-    height: 25px;
+    font-size: 30px;
 }
 
 /* -------------------------------- */
-
-.languages {}
-
-.languages__container {}
-
-.languages__title {}
-
 .languages__list {
     padding: 0 10px;
     display: flex;
@@ -235,12 +220,9 @@ body {
 }
 
 /* -------------------------------- */
-
-.projects {}
-
-.projects__container {}
-
-.projects__title {}
+.projects__container {
+    padding-top: 70px;
+}
 
 .projects__body {
     display: flex;
@@ -251,7 +233,6 @@ body {
 }
 
 .projects__item {
-    box-shadow: 0px 0px 4px #a1a1a1;
     margin: 15px;
     display: flex;
     text-align: center;
@@ -266,8 +247,14 @@ body {
 }
 
 .projects__item-link {
+    box-shadow: 0px 0px 4px rgb(161, 161, 161);
     cursor: pointer;
     color: rgb(29, 29, 29);
+    transition: all 0.5s ease 0s;
+}
+
+.projects__item-link:hover {
+    box-shadow: 0px 0px 8px rgb(82, 82, 82);
 }
 
 .projects__item-link:hover .projects__item-title {
@@ -288,24 +275,11 @@ body {
 }
 
 /* -------------------------------- */
-
-.code {}
-
-.code__container {}
-
-.code__title {}
-
-.code__example {}
+.code__container pre {
+    white-space: pre-wrap;
+}
 
 /* -------------------------------- */
-.education {}
-
-.education__container {}
-
-.education__title {}
-
-.education_items {}
-
 .education__item {
     padding: 25px 0;
     border-bottom: 1px solid rgb(29, 29, 29);
@@ -332,7 +306,7 @@ body {
 }
 
 .education__name a:hover {
-    color: #ddcaba;
+    color: rgb(221, 202, 186);
 }
 
 .education__company {
@@ -340,13 +314,6 @@ body {
 }
 
 /* -------------------------------- */
-
-.contacts {}
-
-.contacts__container {}
-
-.contacts__title {}
-
 .contacts__list {
     padding: 0 10px;
     display: flex;
@@ -369,18 +336,12 @@ body {
 }
 
 .contacts__link:hover {
-    color: rgb(0, 0, 0);
-    font-size: 17px;
+    text-shadow: .6px 0px 0px rgb(29, 29, 29), -.6px 0px 0px rgb(29, 29, 29);
 }
 
 .contacts__icon {
-    width: 25px;
+    font-size: 30px;
     padding: 0 5px;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.contacts__link:hover .contacts__icon {
-    width: 28px;
 }
 
 .no-active {
@@ -389,7 +350,6 @@ body {
 }
 
 /* -------------------------------- */
-
 .footer {
     background-color: rgba(72, 72, 72, 0.8);
 }
@@ -406,15 +366,14 @@ body {
     padding: 0 10px;
 }
 
-.footer__link {}
-
 .footer__icon {
     height: 50px;
+    font-size: 50px;
     padding: 0 10px;
+    color: rgb(0, 0, 0);
 }
 
 /* -------------------------------- */
-
 @media (max-width:767px) {
 
     .about__body {
@@ -423,7 +382,7 @@ body {
     }
 
     .about__container::before {
-        top: -18%;
+        top: -19%;
     }
 
     .contacts__list {
@@ -463,5 +422,19 @@ body {
     .footer__container {
         padding: 15px 0;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width:480px) {
+
+    .about__container::before {
+        top: -16%;
+    }
+}
+
+@media (max-width:320px) {
+
+    .about__container::before {
+        top: -15%;
     }
 }
