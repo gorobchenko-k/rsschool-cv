@@ -132,10 +132,22 @@
                             </a>
                         </div>
                         <div class="projects__item">
-
                             <a class="projects__item-link" href="#">
                                 <img class="projects__item-img" src="image/project-3.JPG" alt="Personal portfolio">
                                 <p class="projects__item-title">Personal portfolio</p>
+                            </a>
+                        </div>
+                        <div class="projects__item">
+                            <a class="projects__item-link"
+                                href="https://gorobchenko-k.github.io/landing-plants/plants/">
+                                <img class="projects__item-img" src="image/project-4.JPG" alt="Plants">
+                                <p class="projects__item-title">Plants</p>
+                            </a>
+                        </div>
+                        <div class="projects__item">
+                            <a class="projects__item-link" href="https://gorobchenko-k-momentum.netlify.app/">
+                                <img class="projects__item-img" src="image/project-5.JPG" alt="Momentum">
+                                <p class="projects__item-title">Momentum</p>
                             </a>
                         </div>
                     </div>
@@ -148,9 +160,9 @@
                     <pre>
                         <code class="code__example">
 function comp(array1, array2){
-    if (Boolean(array1) && Boolean(array2)) {
-        let arr1 = array1.sort((a, b) => a - b);
-        let arr2 = array2.map(item => Math.sqrt(item)).sort((a, b) => a - b);
+    if (Boolean(array1) &amp;&amp; Boolean(array2)) {
+        let arr1 = array1.sort((a, b) =&gt; a - b);
+        let arr2 = array2.map(item =&gt; Math.sqrt(item)).sort((a, b) =&gt; a - b);
 
         for (let i = 0; i &lt; arr1.length; i++) {
             if (arr1[i] !== arr2[i]) return false;
@@ -170,10 +182,19 @@ function comp(array1, array2){
                     <h2 class="education__title title">EDUCATION</h2>
                     <div class="education_items">
                         <div class="education__item">
-                            <div class="education__date">December 2022 - now</div>
-                            <div class="education__name"> JavaScript/Front-end. Stage 0
+                            <div class="education__date">December 2022 - March 2023</div>
+                            <div class="education__name"> <a href="https://app.rs.school/certificate/968j3kc3"
+                                    target="_blank">JavaScript/Front-end. Stage 0</a>
                             </div>
                             <div class="education__company">Rolling Scopes Schools</div>
+                        </div>
+                        <div class="education__item">
+                            <div class="education__date">December 2022 - February 2023</div>
+                            <div class="education__name"> <a
+                                    href="https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/front-end-development-libraries"
+                                    target="_blank">Front End Development Libraries</a>
+                            </div>
+                            <div class="education__company">freeCodeCamp</div>
                         </div>
                         <div class="education__item">
                             <div class="education__date">November 2022</div>
@@ -217,7 +238,7 @@ function comp(array1, array2){
                                 gorobchenko_k</a>
                         </li>
                         <li class="contacts__item">
-                            <a class="contacts__link no-active" href="" target="_blank">
+                            <a class="contacts__link no-active" href="#" target="_blank">
                                 <i class="contacts__icon fa-brands fa-discord"></i>
                                 gorobchenko-k#5844 </a>
                         </li>
