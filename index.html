@@ -22,22 +22,22 @@
                 <nav class="header__body">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#home" class="header__link">Home</a>
+                            <a href="#home" class="header__link" aria-label="Home">Home</a>
                         </li>
                         <li class="header__item">
-                            <a href="#about" class="header__link">About</a>
+                            <a href="#about" class="header__link" aria-label="About">About</a>
                         </li>
                         <li class="header__item">
-                            <a href="#skills" class="header__link">Skills</a>
+                            <a href="#skills" class="header__link" aria-label="Skills">Skills</a>
                         </li>
                         <li class="header__item">
-                            <a href="#projects" class="header__link">Works</a>
+                            <a href="#projects" class="header__link" aria-label="Works">Works</a>
                         </li>
                         <li class="header__item">
-                            <a href="#education" class="header__link">education</a>
+                            <a href="#education" class="header__link" aria-label="Education">Education</a>
                         </li>
                         <li class="header__item">
-                            <a href="#contacts" class="header__link">Contacts</a>
+                            <a href="#contacts" class="header__link" aria-label="Contacts">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,7 +50,7 @@
                     <div class="home__body">
                         <h1 class="home__title">HELLO!</h1>
                         <p class="home__text">My name is Ekaterina. I'm frontend developer.</p>
-                        <a href="CV.pdf" class="home__download" download>Download CV</a>
+                        <a href="CV.pdf" class="home__download" aria-label="Download" download>Download CV</a>
                     </div>
                     <div class="home__image _ibg">
                         <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -119,33 +119,34 @@
                     <div class="projects__body">
                         <div class="projects__item">
                             <a class="projects__item-link" href="https://gorobchenko-k.github.io/flower-shop/"
-                                target="_blank">
+                                target="_blank" aria-label="Project 1">
                                 <img class="projects__item-img" src="image/project-1.JPG" alt="Flower shop">
                                 <p class="projects__item-title">Flower shop</p>
                             </a>
                         </div>
                         <div class="projects__item">
                             <a class="projects__item-link" href="https://gorobchenko-k.github.io/shop-component/"
-                                target="_blank">
+                                target="_blank" aria-label="Project 2">
                                 <img class="projects__item-img" src="image/project-2.JPG" alt="Shop component">
                                 <p class="projects__item-title">Shop component</p>
                             </a>
                         </div>
                         <div class="projects__item">
-                            <a class="projects__item-link" href="#">
+                            <a class="projects__item-link" href="#" aria-label="Project 3">
                                 <img class="projects__item-img" src="image/project-3.JPG" alt="Personal portfolio">
                                 <p class="projects__item-title">Personal portfolio</p>
                             </a>
                         </div>
                         <div class="projects__item">
-                            <a class="projects__item-link"
-                                href="https://gorobchenko-k.github.io/landing-plants/plants/">
+                            <a class="projects__item-link" href="https://gorobchenko-k.github.io/landing-plants/plants/"
+                                target="_blank" aria-label="Project 4">
                                 <img class="projects__item-img" src="image/project-4.JPG" alt="Plants">
                                 <p class="projects__item-title">Plants</p>
                             </a>
                         </div>
                         <div class="projects__item">
-                            <a class="projects__item-link" href="https://gorobchenko-k-momentum.netlify.app/">
+                            <a class="projects__item-link" href="https://gorobchenko-k-momentum.netlify.app/"
+                                target="_blank" aria-label="Project 5">
                                 <img class="projects__item-img" src="image/project-5.JPG" alt="Momentum">
                                 <p class="projects__item-title">Momentum</p>
                             </a>
@@ -184,7 +185,7 @@ function comp(array1, array2){
                         <div class="education__item">
                             <div class="education__date">December 2022 - March 2023</div>
                             <div class="education__name"> <a href="https://app.rs.school/certificate/968j3kc3"
-                                    target="_blank">JavaScript/Front-end. Stage 0</a>
+                                    target="_blank" aria-label="Сertificate 4">JavaScript/Front-end. Stage 0</a>
                             </div>
                             <div class="education__company">Rolling Scopes Schools</div>
                         </div>
@@ -192,7 +193,7 @@ function comp(array1, array2){
                             <div class="education__date">December 2022 - February 2023</div>
                             <div class="education__name"> <a
                                     href="https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/front-end-development-libraries"
-                                    target="_blank">Front End Development Libraries</a>
+                                    target="_blank" aria-label="Сertificate 3">Front End Development Libraries</a>
                             </div>
                             <div class="education__company">freeCodeCamp</div>
                         </div>
@@ -200,7 +201,7 @@ function comp(array1, array2){
                             <div class="education__date">November 2022</div>
                             <div class="education__name"> <a
                                     href="https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/javascript-algorithms-and-data-structures"
-                                    target="_blank">JavaScript Algorithms and Data Structures</a>
+                                    target="_blank" aria-label="Сertificate 2">JavaScript Algorithms and Data Structures</a>
                             </div>
                             <div class="education__company">freeCodeCamp</div>
                         </div>
@@ -208,7 +209,7 @@ function comp(array1, array2){
                             <div class="education__date">October 2022</div>
                             <div class="education__name"><a
                                     href="https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/responsive-web-design"
-                                    target="_blank">Responsive Web Design</a>
+                                    target="_blank" aria-label="Сertificate 1">Responsive Web Design</a>
                             </div>
                             <div class="education__company">freeCodeCamp</div>
                         </div>
@@ -228,22 +229,22 @@ function comp(array1, array2){
                     <h2 class="contacts__title title">CONTACTS</h2>
                     <ul class="contacts__list">
                         <li class="contacts__item">
-                            <a class="contacts__link" href="mailto:gorobchenko.es@mail.ru" target="_blank">
+                            <a class="contacts__link" href="mailto:gorobchenko.es@mail.ru" target="_blank" aria-label="Email">
                                 <i class="contacts__icon fa-solid fa-envelope"></i>
                                 gorobchenko.es@mail.ru</a>
                         </li>
                         <li class="contacts__item">
-                            <a class="contacts__link" href="https://t.me/gorobchenko_k" target="_blank">
+                            <a class="contacts__link" href="https://t.me/gorobchenko_k" target="_blank" aria-label="Telegram">
                                 <i class="contacts__icon fa-brands fa-telegram"></i>
                                 gorobchenko_k</a>
                         </li>
                         <li class="contacts__item">
-                            <a class="contacts__link no-active" href="#" target="_blank">
+                            <a class="contacts__link no-active" href="#" target="_blank" aria-label="Discord">
                                 <i class="contacts__icon fa-brands fa-discord"></i>
                                 gorobchenko-k#5844 </a>
                         </li>
                         <li class="contacts__item">
-                            <a class="contacts__link" href="https://github.com/gorobchenko-k" target="_blank">
+                            <a class="contacts__link" href="https://github.com/gorobchenko-k" target="_blank" aria-label="Github">
                                 <i class="contacts__icon fa-brands fa-github"></i>
                                 gorobchenko-k</a>
                         </li>
@@ -255,10 +256,10 @@ function comp(array1, array2){
         <footer class="footer">
             <div class="footer__container _container">
                 <p class="footer__text">© 2022 by Gorobchenko Ekaterina</p>
-                <a class="footer__link" href="https://github.com/gorobchenko-k" target="_blank">
+                <a class="footer__link" href="https://github.com/gorobchenko-k" target="_blank" aria-label="Github">
                     <i class="footer__icon fa-brands fa-github"></i>
                 </a>
-                <a class="footer__link" href="https://rs.school/js/" target="_blank">
+                <a class="footer__link" href="https://rs.school/js/" target="_blank" aria-label="RS school">
                     <img class="footer__icon" src="image/rs_school_js.svg" alt="rs_school">
                 </a>
             </div>
