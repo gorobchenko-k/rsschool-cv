@@ -5,7 +5,7 @@
 #### Contacts:
 * __Location:__ Saint-Petersburg
 * __E-mail:__ gorobchenko.es@mail.ru
-* __Telegram:__ gorobchenko_k
+* __Telegram:__ [gorobchenko_k](https://t.me/gorobchenko_k)
 * __GitHub:__ [gorobchenko-k](https://github.com/gorobchenko-k) 
 
 **************
@@ -41,6 +41,8 @@ function comp(array1, array2){
 * Courses:
     - [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/responsive-web-design)/ October 2022
     - [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/javascript-algorithms-and-data-structures)/ November 2022
+     - [freeCodeCamp Front End Development Libraries](https://www.freecodecamp.org/certification/fcc0fbdb732-663f-4704-93f3-0f47a038cbd8/front-end-development-libraries)/ December 2022 - February 2023
+     - [Rolling Scopes Schools JavaScript/Front-end. Stage 0](https://app.rs.school/certificate/968j3kc3)/ December 2022 - March 2023
 
 **************
 #### Languages:
